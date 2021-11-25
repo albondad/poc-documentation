@@ -1,0 +1,17 @@
+{
+  "name": "redocly",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@redocly/openapi-cli": "^1.0.0-beta.67",
+    "axios": "^0.24.0",
+    "http-server": "^14.0.0",
+    "redoc-cli": "^0.13.0"
+  },
+  "scripts": {
+    "bundle": "node ./scripts/bundle.js",
+    "rename": "node ./scripts/rename.js",
+    "start": "node ./scripts/start.js"
+  }
+}
