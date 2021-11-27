@@ -6,6 +6,9 @@ services:
       - PORT=${SERVICE_WEBSITE_HOST_PORT}
     ports:
       - '${SERVICE_WEBSITE_CONTAINER_PORT}:${SERVICE_WEBSITE_HOST_PORT}'
+    volumes:
+      - ./packages/website/public:/usr/src/app/public
+      - ./packages/website/src:/usr/src/app/src
   server:
     build: './packages/server'
     ports:
