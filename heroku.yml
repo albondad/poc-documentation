@@ -1,6 +1,5 @@
 build:
   config:
     MESSAGE: this is a test
-    PORT: $PORT
   docker:
     web: packages/website/Dockerfile
