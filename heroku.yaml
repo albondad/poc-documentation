@@ -1,0 +1,3 @@
+build:
+  docker:
+    website: packages/website/Dockerfile
