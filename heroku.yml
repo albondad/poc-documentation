@@ -1,5 +1,6 @@
+setup:
+  config:
+    MESSAGE: this is a test
 build:
   docker:
     web: packages/website/Dockerfile
-run:
-  web: yarn start
