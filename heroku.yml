@@ -1,5 +1,3 @@
 build:
-  config:
-    MESSAGE: this is a test
   docker:
     web: packages/website/Dockerfile
